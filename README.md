@@ -91,11 +91,11 @@ Para rodar este projeto, você precisará configurar dois componentes: o bot pri
 
 ## 🚀 Comandos
 
--   `/iniciar-transacao`: Inicia um novo ticket de negociação.
+-   `/ticket`: Inicia um novo ticket de negociação.
 -   `/setvalor <valor>`: (Apenas Vendedor) Define o valor do item/serviço.
 -   `/setpix <chave_pix>`: (Apenas Vendedor) Define a chave PIX para recebimento do pagamento.
 -   *(outros comandos que você tenha criado)*
 
 ## ⚠️ Importante
 
-Este bot lida com transações financeiras. É crucial que as credenciais e tokens sejam mantidos em segurança no arquivo `.env` e nunca expostos no código ou em repositórios públicos. O uso de uma **conta PJ (MEI)** ou **conta PF (vendador)** é um requisito legal e técnico para a utilização das APIs de repasse do PagBank.
+Este bot lida com transações financeiras. É crucial que as credenciais e tokens sejam mantidos em segurança no arquivo `.env` e nunca expostos no código ou em repositórios públicos. O uso de uma **conta PJ (MEI)** ou **conta PF (vendador)** é um requisito legal e técnico para a utilização das APIs de repasse do PagBank. 
