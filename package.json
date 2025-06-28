@@ -1,0 +1,23 @@
+{
+  "name": "discord-pix-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Pix payments via Mercado Pago API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register-commands": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.x.x",
+    "axios": "^1.x.x",
+    "discord.js": "^14.x.x",
+    "dotenv": "^16.x.x",
+    "express": "^5.1.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
+  }
+}
